@@ -7,4 +7,4 @@
 ```shell
 jconsole
 ```
-local > insecure connect > MBeans > 
+local > insecure connect > MBeans > org.springframework.boot > Endpoint 
