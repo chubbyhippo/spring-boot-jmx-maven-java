@@ -10,7 +10,8 @@ import java.util.concurrent.TimeUnit;
 @SpringBootApplication
 public class DemoApplication {
 
-    void main(String[] args) {
+    @SuppressWarnings("UnnecessaryModifier") // need public for mvn spring-boot:run
+    public static void main(String[] args) {
         SpringApplication.run(DemoApplication.class, args);
     }
 
