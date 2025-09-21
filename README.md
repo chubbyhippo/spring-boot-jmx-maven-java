@@ -3,3 +3,7 @@
 ```shell
 mvn spring-boot:run
 ```
+
+```shell
+jconsole
+```
